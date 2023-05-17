@@ -1,0 +1,27 @@
+.notlogged{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 78vh;
+}
+
+.notlogged-title{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.redirect-link{
+    background-color: rgb(32,32,32);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top:4rem;
+    width: 40%;
+}

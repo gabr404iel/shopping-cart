@@ -1,0 +1,29 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 960px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.banter-loader {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 72px;
+    height: 72px;
+    margin-left: -36px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 60vh;
+}
+
